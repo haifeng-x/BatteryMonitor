@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
             }
             if (intervalMs <= 0) {
                 continue;
+
             }
             try {
                 Thread.sleep(intervalMs);
